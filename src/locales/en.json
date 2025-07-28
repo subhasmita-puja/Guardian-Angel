@@ -1,0 +1,461 @@
+
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "save": "Save",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "error": "Error",
+    "you": "You",
+    "just_now": "Just now",
+    "retake": "Retake",
+    "download": "Download",
+    "send": "Send",
+    "post": "Post",
+    "connect": "Connect"
+  },
+  "header": {
+    "title": "Guardian Angel",
+    "subtitle": "Your Safety Companion",
+    "nav": {
+      "home": "Home",
+      "safemap": "SafeMap",
+      "tools": "Tools",
+      "contacts": "Contacts",
+      "community": "Community",
+      "alerts": "Alerts"
+    },
+    "lang_switcher": {
+      "label": "Language",
+      "en": "English",
+      "hi": "हिन्दी (Hindi)",
+      "or": "ଓଡ଼ିଆ (Odia)"
+    },
+    "toggle_menu": "Toggle mobile menu"
+  },
+  "footer": {
+    "title": "Guardian Angel 👼",
+    "subtitle": "Your Safety Companion",
+    "emergency": "Emergency",
+    "tools": "Tools",
+    "community": "Community",
+    "contact_email": "help@guardian-angel.com",
+    "copyright": "© 2025 Guardian Angel ♡ Made with love 💖",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "support": "Support",
+    "quote": "\"Every woman deserves to feel safe and empowered.\" ✨"
+  },
+  "siren_button": {
+    "activate": "Emergency Siren",
+    "deactivate": "Deactivate Siren"
+  },
+  "fake_call_screen": {
+    "caller_name": "Dad",
+    "incoming": "Incoming Call...",
+    "connecting": "Connecting...",
+    "connected": "Connected",
+    "timer_prefix": "0:",
+    "decline": "Decline",
+    "accept": "Accept",
+    "mute": "Mute",
+    "speaker": "Speaker",
+    "add_call": "Add call",
+    "end_call": "End Call",
+    "ai_voice_prompt": "Hello? Is anyone there?",
+    "audio_error_toast": {
+      "title": "Audio Error",
+      "description": "Could not generate voice. Continuing call without it."
+    }
+  },
+  "alerts_page": {
+    "title": "Alert History",
+    "subtitle": "Your safety journey documented and protected.",
+    "banner_text": "Every alert matters, every moment counts",
+    "inspirational_quotes": [
+      { "text": "Courage doesn't always roar. Sometimes courage is the quiet voice at the end of the day saying, 'I will try again tomorrow.'", "author": "Mary Anne Radmacher" },
+      { "text": "You have been assigned this mountain to show others it can be moved.", "author": "Mel Robbins" },
+      { "text": "She remembered who she was and the game changed.", "author": "Lalah Delia" },
+      { "text": "A woman is like a tea bag - you can't tell how strong she is until you put her in hot water.", "author": "Eleanor Roosevelt" }
+    ],
+    "manage_history": {
+      "title": "Manage Alert History",
+      "description": "Clear all stored emergency alerts",
+      "button": "Clear All Alerts"
+    },
+    "clear_toast": {
+      "title": "Alert History Cleared ✨",
+      "description": "All alert history has been cleared successfully."
+    },
+    "no_alerts": {
+      "title": "No Alerts Sent Yet",
+      "description": "Your emergency alert history will appear here when you send SOS messages.",
+      "banner": "Stay safe, stay prepared"
+    },
+    "alert_card": {
+      "title": "Alert Details",
+      "badge": "EMERGENCY",
+      "sent_to": "Sent to Contacts:",
+      "message_sent": "Message Sent:"
+    },
+    "stats": {
+      "title": "Your Safety Journey",
+      "subtitle": "Every step towards safety matters",
+      "total_alerts": "Total Alerts Sent",
+      "people_notified": "People Notified",
+      "safety_priority": "Safety Priority"
+    }
+  },
+  "community_page": {
+    "title": "Community Forum 💬",
+    "subtitle": "Share experiences, support each other, and grow stronger together 🤝",
+    "banner": "Building a safer world, one story at a time",
+    "page_quote": { "text": "The question isn't who's going to let me; it's who's going to stop me. 🚀", "author": "Ayn Rand" },
+    "bicep_icon_alt": "Bicep Icon",
+    "user_icon_alt": "User Icon",
+    "stats": {
+      "members": "Community Members",
+      "tips_shared": "Safety Tips Shared",
+      "lives_empowered": "Lives Empowered"
+    },
+    "post_form": {
+      "title": "Share Your Experience 📝",
+      "description": "Your voice matters. Share tips, ask questions, and inspire others. 💪",
+      "placeholder": "What's on your mind? Share your safety tips, experiences, or ask for advice. Be kind, be supportive, be empowering! ✨",
+      "ai_review": "AI will review your post for safety."
+    },
+    "post_card": {
+      "community_member": "Community Member",
+      "comments": "{count} Comments",
+      "positivity": "Spreading positivity"
+    },
+    "toasts": {
+      "post_success_title": "Post Successful!",
+      "post_success_desc": "Your experience has been shared with the community.",
+      "moderated_title": "Post Moderated",
+      "moderated_desc": "Your post violates community guidelines and was not published.",
+      "error_title": "Error",
+      "error_desc": "Could not submit your post. Please try again later."
+    },
+    "initial_posts": [
+      { "author": "EmpoweredWoman", "time": "1d ago", "content": "Completed my first self-defense class today! Feeling so much more confident. Remember: your safety is your priority, and you have the right to protect yourself. Never apologize for being cautious! ✨", "likes": 23, "comments": 8 },
+      { "author": "SafetyFirst", "time": "2d ago", "content": "Just wanted to share a tip: when walking at night, always let a friend know your route and estimated arrival time. The 'Share Trip' feature in many map apps is great for this!", "likes": 15, "comments": 4 },
+      { "author": "UrbanExplorer", "time": "5h ago", "content": "Has anyone found a good, discreet personal alarm? Looking for recommendations. I saw some in the 'Tools' section but wanted to hear real user experiences.", "likes": 8, "comments": 12 }
+    ]
+  },
+  "contacts_page": {
+    "title": "Trusted Contacts",
+    "subtitle": "Manage your emergency contact list",
+    "contacts_count": {
+      "one": "{count} trusted contact",
+      "other": "{count} trusted contacts"
+    },
+    "inspirational_quotes": [
+      { "text": "Friendship is the only cement that will ever hold the world together. 🤝", "author": "Woodrow Wilson" },
+      { "text": "A friend is someone who knows all about you and still loves you. 💕", "author": "Elbert Hubbard" },
+      { "text": "In the end, we will remember not the words of our enemies, but the silence of our friends. 🗣️", "author": "Martin Luther King Jr." }
+    ],
+    "add_new_button": "Add New Contact",
+    "no_contacts": {
+      "title": "No Contacts Yet",
+      "description": "Add trusted contacts who will receive your emergency alerts.",
+      "add_first_button": "Add First Contact"
+    },
+    "dialog": {
+      "add_title": "Add New Contact",
+      "edit_title": "Edit Contact",
+      "description": "This person will be notified in an emergency.",
+      "name_label": "Name *",
+      "name_placeholder": "e.g., Jane Doe",
+      "phone_label": "Phone Number *",
+      "phone_code_placeholder": "Code",
+      "phone_number_placeholder": "9876543210",
+      "update_button": "Update Contact",
+      "save_button": "Save Contact"
+    },
+    "toasts": {
+      "updated_title": "Contact Updated ✅",
+      "updated_desc": "{name}'s details have been updated.",
+      "added_title": "Contact Added ✅",
+      "added_desc": "{name} has been added to your trusted contacts."
+    },
+    "form_errors": {
+      "name_length": "Name must be at least 2 characters.",
+      "country_code_required": "Country code is required.",
+      "phone_length": "Phone number must be at least 5 digits."
+    },
+    "country_codes": [
+      { "value": "1", "label": "+1 (USA)" },
+      { "value": "44", "label": "+44 (UK)" },
+      { "value": "91", "label": "+91 (India)" },
+      { "value": "61", "label": "+61 (Australia)" },
+      { "value": "81", "label": "+81 (Japan)" }
+    ]
+  },
+  "home_page": {
+    "title": "Emergency Actions",
+    "subtitle": "Stay safe. Help is a tap away. ❤️",
+    "inspirational_quotes": [
+      { "text": "She believed she could, so she did. ✨", "author": "R.S. Grey" },
+      { "text": "The best protection any woman can have... is courage. 💪", "author": "Elizabeth Cady Stanton" },
+      { "text": "You are more powerful than you know; you are beautiful just as you are. 💖", "author": "Melissa Etheridge" }
+    ]
+  },
+  "home_client": {
+    "voice_sos": {
+      "label": "Voice Activated SOS",
+      "description": "Say 'help' to send a general alert",
+      "keyword": "help"
+    },
+    "voice_emergency_call": {
+      "label": "Voice Emergency Call",
+      "description": "Say 'emergency call' to dial your first contact",
+      "keyword": "emergency call"
+    },
+    "shake_sos": {
+      "label": "Shake to Activate SOS",
+      "description": "Shake your device to trigger emergency alert"
+    },
+    "watch_link": {
+      "label": "Link Smart Watch",
+      "description": "Trigger SOS from your watch",
+      "linked": "Linked"
+    },
+    "watch_dialog": {
+      "title": "Link Your Smartwatch",
+      "description": "Open the Guardian Angel app on your watch and scan the QR code to link your device."
+    },
+    "watch_toasts": {
+      "disconnected_title": "Smartwatch Disconnected",
+      "disconnected_desc": "Your watch is no longer linked.",
+      "linked_title": "Smartwatch Linked!",
+      "linked_desc": "Successfully linked device.",
+      "camera_error_title": "Camera Error",
+      "camera_error_desc": "Could not access the camera. Please check permissions.",
+      "scanner_error_title": "Scanner Error",
+      "scanner_error_desc": "Could not load the QR code scanning library."
+    },
+    "fake_call": {
+      "label": "Fake Incoming Call",
+      "description": "Simulate a call to get out of a situation",
+      "start_button": "Start"
+    },
+    "custom_message": {
+      "title": "Custom Message",
+      "description": "Send a personalized emergency alert",
+      "placeholder": "Enter your custom emergency message",
+      "default_text": "I need help! This is an emergency.",
+      "button": "Send Custom Alert"
+    },
+    "one_tap_sos": "ONE-TAP SOS",
+    "sos_message": "SOS! I am in danger and need immediate assistance!",
+    "voice_sos_message": "SOS! Emergency detected via voice command!",
+    "shake_sos_message": "SOS! Emergency detected via device shake!",
+    "emergency_call_message": "Emergency Call initiated via voice command!",
+    "permission_alerts": {
+      "no_contacts_title": "No Trusted Contacts",
+      "no_contacts_desc": "Please add at least one trusted contact before sending an alert.",
+      "motion_denied_title": "Permission Denied",
+      "motion_denied_desc": "Motion detection permission is required. Please enable it in your browser settings.",
+      "mic_denied_title": "Microphone Access Denied",
+      "mic_denied_desc": "Microphone access is required for voice commands. Please enable it in your browser settings."
+    },
+    "toasts": {
+      "sms_title": "Action Required",
+      "sms_desc": "Your default messaging app is open. Please press SEND to deliver your SOS.",
+      "no_phone_title": "No phone numbers found",
+      "no_phone_desc": "None of your trusted contacts have a valid phone number.",
+      "call_title": "Phone Call Initiated",
+      "call_desc": "Calling your primary contact: {name}.",
+      "voice_unsupported_title": "Not Supported",
+      "voice_unsupported_desc": "Voice commands are not supported on this browser.",
+      "voice_on_title": "Voice Activation is ON",
+      "voice_on_desc": "Say 'help'. The microphone will turn off automatically after use.",
+      "shake_on_title": "Shake to Activate SOS is ON",
+      "shake_on_desc": "Your device is now listening for a shake.",
+      "voice_call_on_title": "Voice Call Activation is ON",
+      "voice_call_on_desc": "Say 'emergency call' to dial your first contact.",
+      "network_error_title": "Network Error",
+      "network_error_desc": "Voice recognition service is unavailable. Please check your internet connection and try again.",
+      "voice_error_title": "Voice Error",
+      "voice_error_desc": "An unexpected error occurred with voice recognition.",
+      "voice_call_error_title": "Voice Call Error",
+      "voice_call_error_desc": "An error occurred with emergency call voice recognition.",
+      "location_error_desc": "Could not get your location: {message}.",
+      "location_unsupported_desc": "Geolocation is not supported by your browser."
+    }
+  },
+  "safemap_page": {
+    "title": "Safe Map & Crime Reporting",
+    "subtitle": "Report incidents with location tracking and evidence capture.",
+    "inspirational_quotes": [
+      { "text": "Courage doesn't always roar. Sometimes courage is the quiet voice at the end of the day saying, 'I will try again tomorrow.'", "author": "Mary Anne Radmacher" },
+      { "text": "You have been assigned this mountain to show others it can be moved.", "author": "Mel Robbins" },
+      { "text": "She remembered who she was and the game changed.", "author": "Lalah Delia" }
+    ]
+  },
+  "safemap_client": {
+    "map_card": {
+      "title": "Safe Map",
+      "description": "Your live location is shown on the map. The blue circle indicates the current accuracy. Click anywhere to rate an area's safety."
+    },
+    "location": {
+      "waiting": "Waiting for location...",
+      "lat": "Lat",
+      "lng": "Lng",
+      "accuracy": "Accuracy: ~{accuracy} meters",
+      "low_accuracy_title": "Low Location Accuracy",
+      "low_accuracy_desc": "Your location may be inaccurate. For best results, use a mobile device with GPS enabled and move to an area with a clear view of the sky.",
+      "not_available": "My location is not available.",
+      "error_message": "Could not get location: {message}.",
+      "unsupported_message": "Geolocation is not supported by your browser.",
+      "enable_services": "Please enable location services."
+    },
+    "rate_dialog": {
+      "title": "How does this area feel?",
+      "description": "Help the community by rating this location. Your contribution is anonymous and makes travel safer for everyone.",
+      "safe": "Safe",
+      "neutral": "Neutral",
+      "risky": "Risky",
+      "marked_on": "Marked on {date}"
+    },
+    "rate_toast": {
+      "title": "Area Rated!",
+      "description": "You've marked an area as {rating}. Thank you!"
+    },
+    "transport_card": {
+      "title": "Transport Safety Check",
+      "description": "Enter a bus or train number to see its crowdsourced safety rating.",
+      "placeholder": "e.g., 24B, M101",
+      "check_button": "Check"
+    },
+    "transport_results": {
+      "not_found_title": "Not Found",
+      "not_found_desc": "No safety data found for transport number \"{number}\".",
+      "report_title": "Safety Report for: {number}",
+      "rating": "({rating}/5 rating)",
+      "reviews_title": "Recent Reviews:"
+    },
+    "crime_report_card": {
+      "title": "Crime Report & Evidence",
+      "description": "Use these tools to document an incident. All information is confidential and stored only on your device.",
+      "ai_assistant_title": "AI Assistant",
+      "initial_ai_message": "Hello! I'm your AI assistant. I'm here to help you document what happened. Please tell me the details of the incident.",
+      "ai_placeholder": "Type your message...",
+      "ai_error_message": "I'm sorry, I'm having trouble connecting. Please try again later.",
+      "evidence_title": "Capture Evidence",
+      "record_video": "Record Video",
+      "take_picture": "Take Picture",
+      "attach_photo": "Attach Photo",
+      "attach_video": "Attach Video",
+      "stop_recording": "Stop Recording",
+      "snap_photo": "Snap Photo",
+      "attach_to_report": "Attach to Report",
+      "record_again": "Record Again",
+      "emergency_button": "Send Emergency Alert Now",
+      "emergency_desc": "This immediately sends an alert with your location and any attached evidence to your trusted contacts."
+    },
+    "camera": {
+      "unsupported_title": "Not Supported",
+      "unsupported_desc": "Camera is not supported on this browser.",
+      "denied_title": "Camera Access Denied",
+      "denied_desc": "Please enable camera permissions in your browser settings.",
+      "required_title": "Camera Access Required",
+      "required_desc": "Please enable camera & microphone permissions in your browser settings to use this feature."
+    },
+    "evidence_toasts": {
+      "photo_attached_title": "Photo Attached",
+      "photo_attached_desc": "The captured photo has been attached to your message.",
+      "video_attached_title": "Video Attached",
+      "video_attached_desc": "The recorded video has been attached to your message."
+    },
+    "emergency_alert": {
+      "message": "I have documented the incident.",
+      "photo_message": "I have a photo of the incident.",
+      "video_message": "I have a video of the incident.",
+      "both_message": "I have a photo and video of the incident.",
+      "full_message": "Emergency alert from Guardian Angel. I am in danger and need help. {evidenceMessage}\n\n{locationInfo}",
+      "no_contacts_title": "No Trusted Contacts",
+      "no_contacts_desc": "Please add trusted contacts on the Contacts page to use this feature."
+    },
+    "live_map": {
+      "you_are_here": "You are here",
+      "accuracy": "Accuracy: ~{accuracy} meters"
+    }
+  },
+  "tools_page": {
+    "title": "Safety Tools",
+    "subtitle": "Your all-in-one safety toolkit.",
+    "quote": {
+      "text": "The most courageous act is still to think for yourself. Aloud.",
+      "author": "Coco Chanel"
+    },
+    "tabs": {
+      "tutorials": "Tutorials",
+      "tips": "Safety Tips",
+      "store": "Defence Tools"
+    }
+  },
+  "tools_client": {
+    "tutorials": {
+      "title": "Self-Defence Video Tutorials 🥋",
+      "description": "Professional self-defense training videos from certified instructors. Click to watch on YouTube. 📚",
+      "watch_button": "Watch Tutorial",
+      "footer_note": "⚠️ Important: These videos are for educational purposes only. Practice with qualified instructors when possible.",
+      "tag_beginner": "🟢 Beginner Friendly",
+      "tag_practical": "🎯 Practical Techniques",
+      "tag_expert": "✅ Expert Instructors",
+      "videos": [
+        { "title": "Basic Self-Defense Moves", "description": "Learn essential self-defense techniques including palm strikes, knee kicks, and escape methods. Perfect for beginners. 🥊", "videoId": "T7aNSRoDCmg", "duration": "8:45", "instructor": "Krav Maga Expert", "difficulty": "Beginner" },
+        { "title": "Escape from Wrist Grabs", "description": "Master the technique to break free from wrist grabs using leverage and proper body mechanics. 🤝", "videoId": "KVpxP3ZZtAc", "duration": "6:32", "instructor": "Self-Defense Instructor", "difficulty": "Beginner" },
+        { "title": "Situational Awareness Training", "description": "Develop your awareness skills to identify and avoid potentially dangerous situations before they escalate. 👀", "videoId": "p6jAhba2mZ8", "duration": "12:18", "instructor": "Security Expert", "difficulty": "All Levels" },
+        { "title": "Women's Self-Defense Basics", "description": "Comprehensive self-defense techniques specifically designed for women, focusing on practical and effective moves. 💪", "videoId": "x9Nt4fKs6E8", "duration": "15:24", "instructor": "Female Martial Artist", "difficulty": "Beginner" },
+        { "title": "Pepper Spray Training", "description": "Learn proper pepper spray usage, including stance, aim, and safety considerations for maximum effectiveness. 🌶️", "videoId": "6oZrF2lkVkg", "duration": "7:15", "instructor": "Law Enforcement Trainer", "difficulty": "Beginner" },
+        { "title": "De-escalation Techniques", "description": "Master verbal and non-verbal de-escalation strategies to defuse tense situations before they become physical. 🗣️", "videoId": "rVIuR2y8Dw4", "duration": "10:42", "instructor": "Conflict Resolution Expert", "difficulty": "All Levels" }
+      ]
+    },
+    "safety_tips": {
+      "title": "Real-Life Safety Tips 💡",
+      "description": "Practical advice for staying safe with expert articles for deeper learning. Trust your instincts. 🧠",
+      "learn_more": "Learn More",
+      "read_article": "Read Full Article",
+      "footer_note": "📚 Expert Resources: Each tip includes links to authoritative articles from trusted sources.",
+      "tag_articles": "📖 Expert Articles",
+      "tag_sources": "🔗 Trusted Sources",
+      "tag_evidence": "🧠 Evidence-Based",
+      "tips": [
+        { "title": "Be Aware of Surroundings", "description": "Avoid distractions like phones. Pay attention to who and what is around you. 👀", "articleLink": "https://www.safewise.com/blog/situational-awareness-tips/", "articleTitle": "Complete Guide to Situational Awareness", "source": "SafeWise" },
+        { "title": "Share Your Plans", "description": "Tell someone your destination and when you'll be back. Share your live location if possible. 📍", "articleLink": "https://www.nytimes.com/wirecutter/guides/personal-safety-apps/", "articleTitle": "Best Personal Safety Apps for Location Sharing", "source": "NY Times Wirecutter" },
+        { "title": "Walk With Confidence", "description": "Keep your head up and walk at a steady pace. Projecting confidence can deter attackers. 💪", "articleLink": "https://www.psychologytoday.com/us/blog/the-human-beast/201104/confident-body-language", "articleTitle": "How Body Language Projects Confidence", "source": "Psychology Today" },
+        { "title": "Trust Your Gut Feeling", "description": "If a situation feels wrong, it probably is. Remove yourself immediately. Don't worry about being polite. 🚨", "articleLink": "https://www.scientificamerican.com/article/gut-feelings-the-intelligence-of-the-unconscious/", "articleTitle": "The Science Behind Gut Feelings and Intuition", "source": "Scientific American" },
+        { "title": "Vary Your Routes", "description": "Avoid taking the same path every day. Being predictable can make you a target. 🛤️", "articleLink": "https://www.fbi.gov/how-we-can-help-you/safety-resources/scams-and-safety/common-scams-and-crimes/personal-safety", "articleTitle": "FBI Personal Safety Guidelines", "source": "FBI Safety Resources" },
+        { "title": "Have an Exit Strategy", "description": "In unfamiliar places, always identify exits and safe spots like open shops or busy areas. 🚪", "articleLink": "https://www.ready.gov/public-spaces", "articleTitle": "Emergency Preparedness in Public Spaces", "source": "Ready.gov" }
+      ]
+    },
+    "defense_tools": {
+      "title": "Self-Defence Tools Store 🛡️",
+      "description": "Real products from trusted vendors. Click to purchase on Amazon. Always check local laws. ⚖️",
+      "buy_button": "Buy on Amazon",
+      "amazon_choice": "Amazon Choice",
+      "footer_note": "🛡️ Safety First: All products are from verified sellers with high ratings. Check your local laws before purchasing.",
+      "tag_prime": "📦 Amazon Prime Available",
+      "tag_rated": "⭐ High Rated Products",
+      "tag_verified": "✅ Verified Sellers",
+      "tools": [
+        { "title": "SABRE Pepper Spray", "description": "Maximum strength pepper spray with 35 bursts and 10-foot range. Trusted by law enforcement. 🌶️", "price": "$12.99", "link": "https://www.amazon.com/SABRE-RED-Pepper-Gel-Professional/dp/B004NKSPR8", "rating": "4.5/5" },
+        { "title": "Personal Safety Alarm", "description": "130dB emergency alarm with LED light. Compact keychain design for easy carrying. 🚨", "price": "$8.99", "link": "https://www.amazon.com/Personal-Alarms-Women-Emergency-Self-Defense/dp/B07QQBQX8K", "rating": "4.3/5" },
+        { "title": "Tactical Defense Pen", "description": "Aircraft-grade aluminum tactical pen with glass breaker tip and smooth writing. ✒️", "price": "$19.99", "link": "https://www.amazon.com/UZI-Tactical-Pen-Glass-Breaker/dp/B00FQJRQUO", "rating": "4.4/5" },
+        { "title": "Tactical Flashlight", "description": "1000-lumen LED flashlight with strobe mode and self-defense bezel. Rechargeable. 🔦", "price": "$24.99", "link": "https://www.amazon.com/Streamlight-66318-MicroStream-Flashlight-Batteries/dp/B00143JZ08", "rating": "4.6/5" },
+        { "title": "Emergency Whistle", "description": "Titanium emergency whistle producing 120dB sound. Waterproof and corrosion-resistant. 📯", "price": "$15.99", "link": "https://www.amazon.com/Atomic-Bear-Emergency-Whistle-Titanium/dp/B07DWZB8YM", "rating": "4.7/5" },
+        { "title": "Door Security Alarm", "description": "Portable door alarm with 120dB siren. Perfect for travel and home security. 🚪", "price": "$16.99", "link": "https://www.amazon.com/Doberman-Security-SE-0106-Ultra-Slim-Window/dp/B00FHZPB9K", "rating": "4.2/5" }
+      ]
+    },
+    "toasts": {
+      "redirect_product_title": "Redirecting to Product 🛒",
+      "redirect_product_desc": "Opening {title} on Amazon...",
+      "redirect_article_title": "Opening Article 📖",
+      "redirect_article_desc": "Reading \"{title}\" from {source}..."
+    }
+  }
+}
