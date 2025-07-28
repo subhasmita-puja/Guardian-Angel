@@ -1,36 +1,169 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# 👼 Guardian Angel - Personal Safety Web App
 
-First, run the development server:
+![Hero Screenshot](./public/home.png)
+
+> A modern safety companion designed especially for **women and students**, integrating **AI, real-time location, voice commands**, and **community-driven features** to ensure you never feel alone again.
+
+---
+
+## 📹 Demo Video
+
+[![Watch the video](./public/project.mp4)(https://www.linkedin.com/posts/subhasmita-sahoo-puja_womensafety-womenintech-hackathonwinner-activity-7354529715925200898-1E2m?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEH0n1oBtjwadIqgqk4TRDwqBhX_3JmDUsk)]
+
+---
+
+## 🚨 Features At A Glance
+
+| 🚀 Feature | 💡 Description |
+|-----------|----------------|
+| 🆘 One-Tap SOS | Sends a message + live location via SMS |
+| 🔊 Emergency Siren | Loud siren using Tone.js to deter threats |
+| 🎙️ Voice-Activated SOS | Say “help” or “emergency call” to trigger alerts |
+| 📳 Shake to SOS | Shake your device to send alerts instantly |
+| 🎭 Fake Incoming Call | Simulate a real call to escape bad situations |
+| 🌐 Live Safety Map | Community-rated safe & risky zones via Leaflet.js |
+| 🤖 AI Crime Report Assistant | Calm, guided reporting with Gemini AI |
+| 📷 Capture Evidence | Record photo/video & attach to reports |
+| 📚 Tutorials & Tips | Self-defense lessons + curated safety tips |
+| 🧑‍🤝‍🧑 Community Forum | Share stories, ask questions with moderation |
+| 📇 Trusted Contacts | Manage emergency contact list securely |
+| 📜 Alert History | See your full emergency log timeline |
+
+---
+
+## 🧠 Core Mission
+
+> **"Empower users to feel secure and supported anytime, anywhere."**
+
+Guardian Angel is not just an app—it's your personal safety companion that anticipates danger, assists in real-time, and documents it when necessary.
+
+---
+
+## 🌈 Screenshots
+
+### 🗺️ Safety Map + Zone Ratings 🤖 AI Crime Assistant
+![Map & AI Assistant Screenshot](./public/safemap.png)
+
+### Tools Page
+![Tools Screenshot](./public/tools.png)
+
+### Community Forum Page
+![Community Screenshot](./public/community.png)
+
+### Contact Page
+![Contact Screenshot](./public/contact%20page.png)
+
+ ### Alerts Page
+![Alerts Screenshot](./public/alerts%20page.png)
+---
+
+## 🛠️ Tech Stack
+
+### ⚙️ Frontend:
+- `React.js` + `Next.js 14`
+- `Tailwind CSS` + `ShadCN UI`
+- `Tone.js`, `Web Speech API`, `Device Motion API`
+
+### 🌍 Real-Time & Browser APIs:
+- `Geolocation API`, `MediaDevices`, `MediaRecorder`
+- `Web Speech API`, `Device Motion`, `Tone.js`
+
+### 🤖 AI & Backend:
+- `Genkit` + Google’s `Gemini AI`
+- Genkit Tools & Flows: Crime Assistant, Content Moderation, TTS Call
+- Server Actions via `use server` (Next.js backend)
+- Hosted on `Vercel App Hosting`
+
+---
+
+## 🌐 Internationalization (i18n)
+
+- App supports **English**, **Hindi**, and **Odia**
+- Managed via a custom `LanguageContext`
+
+---
+
+## 🧪 How to Run Locally
 
 ```bash
+# Clone this repository
+git clone https://github.com/yourusername/guardian-angel.git
+
+# Go into the project folder
+cd guardian-angel
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Visit in browser
+http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📁 Folder Structure (Overview)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+guardian-angel/
+├── app/
+│   ├── sos/
+│   ├── map/
+│   ├── report/
+│   ├── learn/
+│   ├── forum/
+│   ├── contacts/
+│   └── history/
+├── components/
+├── hooks/
+├── lib/
+├── public/
+├── styles/
+├── genkit/  # All AI workflows
+└── apphosting.yaml
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ❤️ Special Thanks
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🔮 [Google Genkit](https://github.com/google/genkit)
+- 🧠 [Gemini AI](https://deepmind.google/technologies/gemini/)
+- 🗺️ [Leaflet.js](https://leafletjs.com/)
+- 🎵 [Tone.js](https://tonejs.github.io/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📣 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We welcome PRs for new features, bug fixes, language translations, and more. Just fork the repo, make your changes, and open a pull request!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+## 👩‍💻 About Me
+
+Hi, I'm **Subhasmita Sahoo** — a passionate developer from Odisha, India. 💻
+ 🔒 I'm deeply interested in building apps that help and protect others.
+
+📍 Khordha, Odisha  
+📫 Email: subhasmita4602@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/subhasmita-sahoo-puja) |
+[Github](https://github.com/subhasmita-puja)|
+[Personal Portfolio](portfolio-iota-topaz-92.vercel.app/)
+
+---
+
+## 🧍‍♀️ Empowerment Starts with You!
+
+> “Your voice is powerful. Your safety is non-negotiable. Guardian Angel is here for you.”
+
+---
+
